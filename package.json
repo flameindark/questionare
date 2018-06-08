@@ -1,0 +1,32 @@
+{
+  "name": "questionare",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.5.4",
+    "axios": "^0.18.0",
+    "normalize.css": "^8.0.0",
+    "qs": "^6.5.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "proxy": {
+    "/home": {
+      "target": "http://192.168.1.116",
+      "pathRewrite": {
+        "^/": ""
+      }
+    }
+  },
+  "scripts": {
+    "eject": "react-scripts eject",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.7.0",
+    "react-app-rewired": "^1.5.2"
+  }
+}

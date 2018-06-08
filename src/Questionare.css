@@ -1,0 +1,43 @@
+.top {
+  height: 140px;
+  background: url(/static/media/banner.d3e2262a.png) no-repeat -330px;
+}
+.qs-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 80px;
+}
+.qs-summary {
+  font-size: 14px;
+  text-indent: 30px;
+  line-height: 24px;
+  margin: 10px 0;
+}
+.questions-area {
+  background: #f6f6f6;
+  padding: 30px 20px;
+}
+
+/* 单选题样式改写 */
+.options .ant-radio-group {
+  width: 100%;
+}
+.options .ant-radio-wrapper {
+  padding: 0 10px;
+}
+.options .ant-radio-wrapper:hover {
+  background: #e5e5e5;
+}
+
+/* 多选题样式改写 */
+.options .ant-checkbox-wrapper {
+  padding: 0 10px;
+}
+.options .ant-checkbox-wrapper:hover {
+  background: #e5e5e5;
+}
+.options .ant-checkbox-wrapper + .ant-checkbox-wrapper {
+  margin: 0;
+}
