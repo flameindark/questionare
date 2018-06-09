@@ -34,7 +34,7 @@ class Questionare extends Component {
         <div className="top"></div>
         <h2 className="qs-title">{this.state.questionare.name}</h2>
         <h5 className="qs-summary">{this.state.questionare.summary}</h5>
-        <ProgressWrap></ProgressWrap>
+        {ProgressWrap(12)}
         <div className="questions-area">
           {
             questions.map((item, index) => (
